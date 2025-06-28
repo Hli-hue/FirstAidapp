@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>res/add.png</file>
+        <file>res/add_hover.png</file>
+        <file>res/bandage.png</file>
+        <file>res/book.png</file>
+        <file>res/disinfect.png</file>
+        <file>res/medicine.png</file>
+        <file>res/minus.png</file>
+        <file>res/minus_hover.png</file>
+        <file>res/tool.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>res/AED.png</file>
+        <file>res/Check.png</file>
+        <file>res/Kits.png</file>
+        <file>res/Learn.png</file>
+        <file>res/Operate.png</file>
+        <file>res/Recognize.png</file>
+        <file>res/FirstAid.png</file>
+        <file>res/Guide.png</file>
+        <file>res/Call.png</file>
+    </qresource>
+</RCC>

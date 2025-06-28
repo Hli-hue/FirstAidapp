@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LearingMenu</class>
+ <widget class="QMainWindow" name="LearingMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferDefault</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>12</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>急救种类</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>12</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>急救步骤</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Steps">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>891</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>12</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>新宋体</family>
+      <pointsize>12</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>常见问题</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="HeadName">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>891</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文行楷</family>
+      <pointsize>12</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="QnA">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>450</y>
+      <width>891</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>10</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1008</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_C">
+    <property name="title">
+     <string>分类(&amp;C)</string>
+    </property>
+    <addaction name="action0"/>
+    <addaction name="action1"/>
+    <addaction name="action2"/>
+    <addaction name="action3"/>
+    <addaction name="action4"/>
+    <addaction name="action5"/>
+    <addaction name="action6"/>
+    <addaction name="action7"/>
+    <addaction name="action8"/>
+    <addaction name="action9"/>
+    <addaction name="action10"/>
+    <addaction name="action11"/>
+    <addaction name="action12"/>
+    <addaction name="action13"/>
+    <addaction name="action14"/>
+    <addaction name="action15"/>
+    <addaction name="action16"/>
+    <addaction name="action17"/>
+    <addaction name="action18"/>
+    <addaction name="action19"/>
+    <addaction name="action20"/>
+    <addaction name="action21"/>
+    <addaction name="action22"/>
+    <addaction name="action23"/>
+    <addaction name="action24"/>
+    <addaction name="action25"/>
+    <addaction name="action26"/>
+   </widget>
+   <widget class="QMenu" name="menu_L">
+    <property name="title">
+     <string>测试（&amp;T）</string>
+    </property>
+    <addaction name="action_B"/>
+    <addaction name="action_H"/>
+    <addaction name="action_S"/>
+    <addaction name="action_Y"/>
+    <addaction name="action_U"/>
+    <addaction name="action_P"/>
+   </widget>
+   <addaction name="menu_C"/>
+   <addaction name="menu_L"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action0">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/sorrow.svg</normaloff>:/icons/assets/icons/sorrow.svg</iconset>
+   </property>
+   <property name="text">
+    <string>悲痛(&amp;0)</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/bleeding.svg</normaloff>:/icons/assets/icons/bleeding.svg</iconset>
+   </property>
+   <property name="text">
+    <string>出血(&amp;1)</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/electricshock.svg</normaloff>:/icons/assets/icons/electricshock.svg</iconset>
+   </property>
+   <property name="text">
+    <string>触电(&amp;2)</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/hypothermia.svg</normaloff>:/icons/assets/icons/hypothermia.svg</iconset>
+   </property>
+   <property name="text">
+    <string>低体温症(&amp;3)</string>
+   </property>
+  </action>
+  <action name="action4">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/epilepticseizure.svg</normaloff>:/icons/assets/icons/epilepticseizure.svg</iconset>
+   </property>
+   <property name="text">
+    <string>癫痫发作(&amp;4)</string>
+   </property>
+  </action>
+  <action name="action5">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/dogbite.svg</normaloff>:/icons/assets/icons/dogbite.svg</iconset>
+   </property>
+   <property name="text">
+    <string>狗咬伤(&amp;5)</string>
+   </property>
+  </action>
+  <action name="action6">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/fracture.svg</normaloff>:/icons/assets/icons/fracture.svg</iconset>
+   </property>
+   <property name="text">
+    <string>骨折(&amp;6)</string>
+   </property>
+  </action>
+  <action name="action7">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/anaphylaxis.svg</normaloff>:/icons/assets/icons/anaphylaxis.svg</iconset>
+   </property>
+   <property name="text">
+    <string>过敏反应(&amp;7)</string>
+   </property>
+  </action>
+  <action name="action8">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/alcoholism.svg</normaloff>:/icons/assets/icons/alcoholism.svg</iconset>
+   </property>
+   <property name="text">
+    <string>酒精中毒(&amp;8)</string>
+   </property>
+  </action>
+  <action name="action9">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/strains&amp;sprains.svg</normaloff>:/icons/assets/icons/strains&amp;sprains.svg</iconset>
+   </property>
+   <property name="text">
+    <string>拉伤和扭伤(&amp;9)</string>
+   </property>
+  </action>
+  <action name="action10">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/craniocerebraltrauma.svg</normaloff>:/icons/assets/icons/craniocerebraltrauma.svg</iconset>
+   </property>
+   <property name="text">
+    <string>颅脑外伤(&amp;1&amp;0)</string>
+   </property>
+  </action>
+  <action name="action11">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/heatstroke.svg</normaloff>:/icons/assets/icons/heatstroke.svg</iconset>
+   </property>
+   <property name="text">
+    <string>脑膜炎(&amp;1&amp;1)</string>
+   </property>
+  </action>
+  <action name="action12">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/drowning.svg</normaloff>:/icons/assets/icons/drowning.svg</iconset>
+   </property>
+   <property name="text">
+    <string>溺水(&amp;1&amp;2)</string>
+   </property>
+  </action>
+  <action name="action13">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/airwayobstruction.svg</normaloff>:/icons/assets/icons/airwayobstruction.svg</iconset>
+   </property>
+   <property name="text">
+    <string>气道梗阻(&amp;1&amp;3)</string>
+   </property>
+  </action>
+  <action name="action14">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/burn&amp;scald.svg</normaloff>:/icons/assets/icons/burn&amp;scald.svg</iconset>
+   </property>
+   <property name="text">
+    <string>烧烫伤(&amp;1&amp;4)</string>
+   </property>
+  </action>
+  <action name="action15">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/diabetic.svg</normaloff>:/icons/assets/icons/diabetic.svg</iconset>
+   </property>
+   <property name="text">
+    <string>糖尿病急症(&amp;1&amp;5)</string>
+   </property>
+  </action>
+  <action name="action16">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/bandaging.svg</normaloff>:/icons/assets/icons/bandaging.svg</iconset>
+   </property>
+   <property name="text">
+    <string>外伤包扎(&amp;1&amp;6)</string>
+   </property>
+  </action>
+  <action name="action17">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/unconsciousspontaneousbreathing.svg</normaloff>:/icons/assets/icons/unconsciousspontaneousbreathing.svg</iconset>
+   </property>
+   <property name="text">
+    <string>无意识无自主呼吸(&amp;1&amp;7)</string>
+   </property>
+  </action>
+  <action name="action18">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/unconsciouswithoutspontaneousbreathing.svg</normaloff>:/icons/assets/icons/unconsciouswithoutspontaneousbreathing.svg</iconset>
+   </property>
+   <property name="text">
+    <string>无意识有自主呼吸(&amp;1&amp;8)</string>
+   </property>
+  </action>
+  <action name="action19">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/fever&amp;convulsions.svg</normaloff>:/icons/assets/icons/fever&amp;convulsions.svg</iconset>
+   </property>
+   <property name="text">
+    <string>小儿高热抽搐(&amp;1&amp;9)</string>
+   </property>
+  </action>
+  <action name="action20">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/asthmatic.svg</normaloff>:/icons/assets/icons/asthmatic.svg</iconset>
+   </property>
+   <property name="text">
+    <string>哮喘发作(&amp;2&amp;0)</string>
+   </property>
+  </action>
+  <action name="action21">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/heartattack.svg</normaloff>:/icons/assets/icons/heartattack.svg</iconset>
+   </property>
+   <property name="text">
+    <string>心脏病发作(&amp;2&amp;1)</string>
+   </property>
+  </action>
+  <action name="action22">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/shock.svg</normaloff>:/icons/assets/icons/shock.svg</iconset>
+   </property>
+   <property name="text">
+    <string>休克(&amp;2&amp;2)</string>
+   </property>
+  </action>
+  <action name="action23">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/bites.svg</normaloff>:/icons/assets/icons/bites.svg</iconset>
+   </property>
+   <property name="text">
+    <string>蛰伤和咬伤(&amp;2&amp;3)</string>
+   </property>
+  </action>
+  <action name="action24">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/poisoning.svg</normaloff>:/icons/assets/icons/poisoning.svg</iconset>
+   </property>
+   <property name="text">
+    <string>中毒(&amp;2&amp;4)</string>
+   </property>
+  </action>
+  <action name="action25">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/meningitis.svg</normaloff>:/icons/assets/icons/meningitis.svg</iconset>
+   </property>
+   <property name="text">
+    <string>中风(&amp;2&amp;5)</string>
+   </property>
+  </action>
+  <action name="action26">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/stroke.svg</normaloff>:/icons/assets/icons/stroke.svg</iconset>
+   </property>
+   <property name="text">
+    <string>中暑(&amp;2&amp;6)</string>
+   </property>
+  </action>
+  <action name="action_B">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/bleeding.svg</normaloff>:/icons/assets/icons/bleeding.svg</iconset>
+   </property>
+   <property name="text">
+    <string>出血（&amp;B）</string>
+   </property>
+  </action>
+  <action name="action_H">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/heartattack.svg</normaloff>:/icons/assets/icons/heartattack.svg</iconset>
+   </property>
+   <property name="text">
+    <string>心脏病发作（&amp;H)</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/burn&amp;scald.svg</normaloff>:/icons/assets/icons/burn&amp;scald.svg</iconset>
+   </property>
+   <property name="text">
+    <string>烧烫伤（&amp;S）</string>
+   </property>
+  </action>
+  <action name="action_Y">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/airwayobstruction.svg</normaloff>:/icons/assets/icons/airwayobstruction.svg</iconset>
+   </property>
+   <property name="text">
+    <string>气道梗阻（&amp;A）</string>
+   </property>
+  </action>
+  <action name="action_U">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/unconsciouswithoutspontaneousbreathing.svg</normaloff>:/icons/assets/icons/unconsciouswithoutspontaneousbreathing.svg</iconset>
+   </property>
+   <property name="text">
+    <string>无意识有自主呼吸（&amp;U）</string>
+   </property>
+  </action>
+  <action name="action_P">
+   <property name="icon">
+    <iconset resource="icons.qrc">
+     <normaloff>:/icons/assets/icons/Prevent.svg</normaloff>:/icons/assets/icons/Prevent.svg</iconset>
+   </property>
+   <property name="text">
+    <string>预防（&amp;P）</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

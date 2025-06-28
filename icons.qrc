@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>assets/icons/sorrow.svg</file>
+        <file>assets/icons/unconsciouswithoutspontaneousbreathing.svg</file>
+        <file>assets/icons/unconsciousspontaneousbreathing.svg</file>
+        <file>assets/icons/stroke.svg</file>
+        <file>assets/icons/strains&amp;sprains.svg</file>
+        <file>assets/icons/shock.svg</file>
+        <file>assets/icons/poisoning.svg</file>
+        <file>assets/icons/meningitis.svg</file>
+        <file>assets/icons/hypothermia.svg</file>
+        <file>assets/icons/heatstroke.svg</file>
+        <file>assets/icons/heartattack.svg</file>
+        <file>assets/icons/fracture.svg</file>
+        <file>assets/icons/fever&amp;convulsions.svg</file>
+        <file>assets/icons/epilepticseizure.svg</file>
+        <file>assets/icons/electricshock.svg</file>
+        <file>assets/icons/drowning.svg</file>
+        <file>assets/icons/dogbite.svg</file>
+        <file>assets/icons/diabetic.svg</file>
+        <file>assets/icons/craniocerebraltrauma.svg</file>
+        <file>assets/icons/burn&amp;scald.svg</file>
+        <file>assets/icons/bleeding.svg</file>
+        <file>assets/icons/bites.svg</file>
+        <file>assets/icons/bandaging.svg</file>
+        <file>assets/icons/asthmatic.svg</file>
+        <file>assets/icons/anaphylaxis.svg</file>
+        <file>assets/icons/alcoholism.svg</file>
+        <file>assets/icons/airwayobstruction.svg</file>
+        <file>assets/icons/Prevent.svg</file>
+    </qresource>
+</RCC>
